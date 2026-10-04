@@ -1,606 +1,694 @@
-```html
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8">
 
-    <meta
-        name="description"
-        content="TAMIN GROUP — a technology, business and innovation ecosystem."
-    >
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-    <meta name="theme-color" content="#0a0a0a">
+  <meta
+    name="description"
+    content="TAMIN GROUP — Technology, business and innovation."
+  >
 
-    <title>TAMIN GROUP — Technology. Business. Innovation.</title>
+  <meta name="theme-color" content="#080808">
 
-    <link rel="stylesheet" href="style.css">
+  <title>TAMIN GROUP — We Build What's Next.</title>
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <link
+    href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@400;500&family=Inter:wght@400;500;600;700;800&display=swap"
+    rel="stylesheet"
+  >
+
+  <link rel="stylesheet" href="style.css">
 </head>
 
 <body>
 
-    <!-- ================= HEADER ================= -->
+  <!-- ================= HEADER ================= -->
 
-    <header class="site-header">
+  <header class="site-header" id="siteHeader">
 
-        <a href="#home" class="logo" aria-label="TAMIN GROUP">
+    <a href="#home" class="brand">
 
-            <svg
-                class="tamin-logo-mark"
-                viewBox="0 0 64 64"
-                fill="none"
-                xmlns="http://www.w3.org/2000/svg"
-                aria-hidden="true"
-            >
-                <path
-                    d="M18 8H50V16H26V26H42V34H26V48H18V8Z"
-                    fill="currentColor"
-                />
+      <div class="brand-mark">
+        <span></span>
+        <span></span>
+        <span></span>
+      </div>
 
-                <path
-                    d="M42 26H50V56H42V26Z"
-                    fill="currentColor"
-                />
+      <div class="brand-name">
+        <strong>TAMIN</strong>
+        <small>GROUP</small>
+      </div>
 
-                <path
-                    d="M26 34H42V42H26V34Z"
-                    fill="currentColor"
-                />
-            </svg>
+    </a>
 
-            <span class="logo-wordmark">
-                <span class="logo-main">TAMIN</span>
-                <span class="logo-group">GROUP</span>
-            </span>
+    <nav class="desktop-nav">
+      <a href="#group">Group</a>
+      <a href="#directions">Directions</a>
+      <a href="#projects">Projects</a>
+      <a href="#innovation">Innovation</a>
+      <a href="#about">About</a>
+    </nav>
 
+    <a href="#contact" class="header-contact">
+      Start a conversation
+      <span>↗</span>
+    </a>
+
+    <button
+      class="menu-button"
+      id="menuButton"
+      aria-label="Open menu"
+      aria-expanded="false"
+    >
+      <span></span>
+      <span></span>
+    </button>
+
+  </header>
+
+
+  <!-- ================= MOBILE MENU ================= -->
+
+  <div class="mobile-menu" id="mobileMenu">
+
+    <div class="mobile-menu-inner">
+
+      <div class="mobile-menu-top">
+        <span>MENU</span>
+        <span>01—05</span>
+      </div>
+
+      <nav>
+        <a href="#group">
+          <span>01</span>
+          Group
         </a>
 
+        <a href="#directions">
+          <span>02</span>
+          Directions
+        </a>
 
-        <nav class="desktop-nav">
-            <a href="#group">Group</a>
-            <a href="#directions">Directions</a>
-            <a href="#projects">Projects</a>
-            <a href="#innovation">Innovation</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
+        <a href="#projects">
+          <span>03</span>
+          Projects
+        </a>
+
+        <a href="#innovation">
+          <span>04</span>
+          Innovation
+        </a>
+
+        <a href="#about">
+          <span>05</span>
+          About
+        </a>
+      </nav>
+
+      <div class="mobile-menu-bottom">
+        <span>KYRGYZSTAN</span>
+        <span>GLOBAL</span>
+      </div>
+
+    </div>
+
+  </div>
 
 
-        <button
-            class="menu-button"
-            aria-label="Open menu"
-            aria-expanded="false"
-        >
-            <span></span>
-            <span></span>
-        </button>
+  <main>
 
-    </header>
+    <!-- ================= HERO ================= -->
 
+    <section class="hero" id="home">
 
-    <!-- ================= MOBILE MENU ================= -->
+      <div class="hero-grid"></div>
 
-    <div class="mobile-menu">
+      <div class="hero-orbit"></div>
 
-        <nav>
-            <a href="#group">Group</a>
-            <a href="#directions">Directions</a>
-            <a href="#projects">Projects</a>
-            <a href="#innovation">Innovation</a>
-            <a href="#about">About</a>
-            <a href="#contact">Contact</a>
-        </nav>
+      <div class="hero-content">
 
-        <div class="mobile-menu-footer">
-            <span>Technology</span>
-            <span>Business</span>
-            <span>Innovation</span>
+        <div class="eyebrow reveal">
+          <span class="status-dot"></span>
+          TECHNOLOGY · BUSINESS · INNOVATION
         </div>
+
+        <h1 class="hero-title reveal">
+          WE BUILD
+          <span>WHAT'S NEXT.</span>
+        </h1>
+
+        <div class="hero-bottom reveal">
+
+          <p>
+            TAMIN GROUP is an independent technology and venture ecosystem
+            building digital products, businesses and ideas for the future.
+          </p>
+
+          <div class="hero-actions">
+
+            <a href="#group" class="button button-primary">
+              Explore group
+              <span>↗</span>
+            </a>
+
+            <a href="#projects" class="button button-secondary">
+              View projects
+            </a>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="hero-meta">
+        <span>EST. 2026</span>
+        <span>KG / 42.87° N</span>
+        <span>SCROLL ↓</span>
+      </div>
+
+    </section>
+
+
+    <!-- ================= MARQUEE ================= -->
+
+    <div class="marquee">
+
+      <div class="marquee-track">
+
+        <span>TECHNOLOGY</span>
+        <i>✦</i>
+        <span>BUSINESS</span>
+        <i>✦</i>
+        <span>INNOVATION</span>
+        <i>✦</i>
+        <span>VENTURES</span>
+        <i>✦</i>
+
+        <span>TECHNOLOGY</span>
+        <i>✦</i>
+        <span>BUSINESS</span>
+        <i>✦</i>
+        <span>INNOVATION</span>
+        <i>✦</i>
+        <span>VENTURES</span>
+        <i>✦</i>
+
+      </div>
 
     </div>
 
 
-    <main>
+    <!-- ================= GROUP ================= -->
 
-        <!-- ================= HERO ================= -->
+    <section class="section group-section" id="group">
 
-        <section class="hero" id="home">
+      <div class="section-heading reveal">
 
-            <div class="hero-background">
-                <div class="hero-grid"></div>
-                <div class="hero-glow"></div>
-            </div>
+        <div class="section-number">01 / GROUP</div>
 
-            <div class="hero-content">
+        <h2>
+          ONE GROUP.
+          <br>
+          <em>MANY DIRECTIONS.</em>
+        </h2>
 
-                <p class="eyebrow">
-                    TECHNOLOGY • BUSINESS • INNOVATION
-                </p>
+      </div>
 
-                <h1>
-                    We build
-                    <span>what comes next.</span>
-                </h1>
+      <div class="group-layout">
 
-                <p class="hero-description">
-                    TAMIN GROUP is a technology and entrepreneurial ecosystem
-                    creating digital products, businesses and innovative solutions
-                    for the future.
-                </p>
+        <div class="group-statement reveal">
 
-                <div class="hero-actions">
+          <span class="label">OUR APPROACH</span>
 
-                    <a href="#directions" class="button button-primary">
-                        Explore Group
-                        <span>↗</span>
-                    </a>
-
-                    <a href="#projects" class="button button-secondary">
-                        View Projects
-                    </a>
-
-                </div>
-
-            </div>
-
-            <div class="hero-bottom">
-
-                <span>EST. 2026</span>
-
-                <span class="scroll-indicator">
-                    SCROLL ↓
-                </span>
-
-                <span>KYRGYZSTAN / GLOBAL</span>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= GROUP ================= -->
-
-        <section class="section group-section" id="group">
-
-            <div class="section-label">
-                <span>01</span>
-                <span>THE GROUP</span>
-            </div>
-
-            <div class="group-layout">
-
-                <div class="section-heading">
-
-                    <p class="small-label">
-                        WHO WE ARE
-                    </p>
-
-                    <h2>
-                        One group.
-                        <br>
-                        Multiple possibilities.
-                    </h2>
-
-                </div>
-
-                <div class="section-text">
-
-                    <p>
-                        TAMIN GROUP brings together technology,
-                        entrepreneurship, creativity and innovation
-                        under one ecosystem.
-                    </p>
-
-                    <p>
-                        We create digital solutions for businesses,
-                        develop our own products and explore ideas
-                        that can become tomorrow's opportunities.
-                    </p>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= DIRECTIONS ================= -->
-
-        <section class="section directions-section" id="directions">
-
-            <div class="section-label">
-                <span>02</span>
-                <span>DIRECTIONS</span>
-            </div>
-
-            <div class="section-intro">
-
-                <p class="small-label">
-                    OUR ECOSYSTEM
-                </p>
-
-                <h2>
-                    Five directions.
-                    <br>
-                    One vision.
-                </h2>
-
-            </div>
-
-
-            <div class="directions-grid">
-
-                <article class="direction-card">
-
-                    <span class="card-number">01</span>
-
-                    <div>
-                        <h3>TAMIN DIGITAL</h3>
-
-                        <p>
-                            Websites, digital products,
-                            automation and technology solutions
-                            for businesses.
-                        </p>
-                    </div>
-
-                    <span class="card-arrow">↗</span>
-
-                </article>
-
-
-                <article class="direction-card">
-
-                    <span class="card-number">02</span>
-
-                    <div>
-                        <h3>TAMIN AI</h3>
-
-                        <p>
-                            Artificial intelligence, smart tools,
-                            automation and experimental AI products.
-                        </p>
-                    </div>
-
-                    <span class="card-arrow">↗</span>
-
-                </article>
-
-
-                <article class="direction-card">
-
-                    <span class="card-number">03</span>
-
-                    <div>
-                        <h3>TAMIN MEDIA</h3>
-
-                        <p>
-                            Branding, marketing, creative content
-                            and digital communication.
-                        </p>
-                    </div>
-
-                    <span class="card-arrow">↗</span>
-
-                </article>
-
-
-                <article class="direction-card">
-
-                    <span class="card-number">04</span>
-
-                    <div>
-                        <h3>TAMIN VENTURES</h3>
-
-                        <p>
-                            New products, startups and
-                            entrepreneurial experiments.
-                        </p>
-                    </div>
-
-                    <span class="card-arrow">↗</span>
-
-                </article>
-
-
-                <article class="direction-card">
-
-                    <span class="card-number">05</span>
-
-                    <div>
-                        <h3>TAMIN INNOVATION</h3>
-
-                        <p>
-                            Research, future technologies
-                            and ambitious ideas.
-                        </p>
-                    </div>
-
-                    <span class="card-arrow">↗</span>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= PROJECTS ================= -->
-
-        <section class="section projects-section" id="projects">
-
-            <div class="section-label">
-                <span>03</span>
-                <span>PROJECTS</span>
-            </div>
-
-            <div class="projects-heading">
-
-                <div>
-                    <p class="small-label">
-                        SELECTED WORK
-                    </p>
-
-                    <h2>
-                        Ideas into
-                        <span>reality.</span>
-                    </h2>
-                </div>
-
-                <p>
-                    A selection of digital products,
-                    concepts and experiments created
-                    within the TAMIN ecosystem.
-                </p>
-
-            </div>
-
-
-            <div class="projects-grid">
-
-                <article class="project-card project-large">
-
-                    <div class="project-image project-image-1">
-                        <span>PROJECT 01</span>
-                    </div>
-
-                    <div class="project-info">
-
-                        <div>
-                            <h3>TAMIN GROUP</h3>
-                            <p>Corporate ecosystem</p>
-                        </div>
-
-                        <span>↗</span>
-
-                    </div>
-
-                </article>
-
-
-                <article class="project-card">
-
-                    <div class="project-image project-image-2">
-                        <span>PROJECT 02</span>
-                    </div>
-
-                    <div class="project-info">
-
-                        <div>
-                            <h3>LEARNMATHKIDS</h3>
-                            <p>Educational technology</p>
-                        </div>
-
-                        <span>↗</span>
-
-                    </div>
-
-                </article>
-
-
-                <article class="project-card">
-
-                    <div class="project-image project-image-3">
-                        <span>PROJECT 03</span>
-                    </div>
-
-                    <div class="project-info">
-
-                        <div>
-                            <h3>DIGITAL BUSINESS</h3>
-                            <p>Business solutions</p>
-                        </div>
-
-                        <span>↗</span>
-
-                    </div>
-
-                </article>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= INNOVATION ================= -->
-
-        <section class="innovation-section" id="innovation">
-
-            <div class="innovation-overlay"></div>
-
-            <div class="innovation-content">
-
-                <p class="small-label">
-                    04 / INNOVATION
-                </p>
-
-                <h2>
-                    Don't just
-                    <span>follow the future.</span>
-                </h2>
-
-                <p>
-                    Explore it. Question it. Build toward it.
-                </p>
-
-                <a href="#contact" class="button button-light">
-                    Explore Innovation →
-                </a>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= ABOUT ================= -->
-
-        <section class="section about-section" id="about">
-
-            <div class="section-label">
-                <span>05</span>
-                <span>ABOUT</span>
-            </div>
-
-            <div class="about-layout">
-
-                <div>
-
-                    <p class="small-label">
-                        OUR MISSION
-                    </p>
-
-                    <h2>
-                        Build useful.
-                        <br>
-                        Think bigger.
-                    </h2>
-
-                </div>
-
-
-                <div class="about-content">
-
-                    <p class="large-text">
-                        We believe technology should not only
-                        make things faster. It should make
-                        possibilities bigger.
-                    </p>
-
-                    <div class="values">
-
-                        <div>
-                            <span>01</span>
-                            <strong>Curiosity</strong>
-                        </div>
-
-                        <div>
-                            <span>02</span>
-                            <strong>Innovation</strong>
-                        </div>
-
-                        <div>
-                            <span>03</span>
-                            <strong>Execution</strong>
-                        </div>
-
-                        <div>
-                            <span>04</span>
-                            <strong>Long-term thinking</strong>
-                        </div>
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </section>
-
-
-        <!-- ================= CONTACT ================= -->
-
-        <section class="contact-section" id="contact">
-
-            <div class="contact-inner">
-
-                <p class="small-label">
-                    06 / CONTACT
-                </p>
-
-                <h2>
-                    Let's build
-                    <span>something meaningful.</span>
-                </h2>
-
-                <p>
-                    Have an idea, project or opportunity?
-                    Let's start a conversation.
-                </p>
-
-                <a href="mailto:hello@tamingroup.com" class="contact-email">
-                    hello@tamingroup.com ↗
-                </a>
-
-            </div>
-
-        </section>
-
-    </main>
-
-
-    <!-- ================= FOOTER ================= -->
-
-    <footer class="footer">
-
-        <div class="footer-top">
-
-            <div class="footer-brand">
-
-                <div class="footer-logo">
-                    TAMIN GROUP
-                </div>
-
-                <p>
-                    Technology. Business. Innovation.
-                </p>
-
-            </div>
-
-
-            <div class="footer-links">
-
-                <div>
-                    <span>EXPLORE</span>
-                    <a href="#group">Group</a>
-                    <a href="#directions">Directions</a>
-                    <a href="#projects">Projects</a>
-                </div>
-
-                <div>
-                    <span>COMPANY</span>
-                    <a href="#innovation">Innovation</a>
-                    <a href="#about">About</a>
-                    <a href="#contact">Contact</a>
-                </div>
-
-            </div>
+          <p>
+            We combine technology, entrepreneurship and creativity
+            to turn ideas into things people can actually use.
+          </p>
 
         </div>
 
+        <div class="group-copy reveal">
 
-        <div class="footer-bottom">
+          <p>
+            TAMIN GROUP operates at the intersection of digital technology,
+            business and future-oriented innovation.
+          </p>
 
-            <span>© 2026 TAMIN GROUP</span>
+          <p>
+            We work with businesses, build our own products and explore
+            problems that may become opportunities tomorrow.
+          </p>
 
-            <span>KYRGYZSTAN / GLOBAL</span>
+          <div class="mini-stats">
+
+            <div>
+              <strong>05</strong>
+              <span>Directions</span>
+            </div>
+
+            <div>
+              <strong>∞</strong>
+              <span>Ideas</span>
+            </div>
+
+            <div>
+              <strong>01</strong>
+              <span>Vision</span>
+            </div>
+
+          </div>
 
         </div>
 
-    </footer>
+      </div>
+
+    </section>
 
 
-    <script src="script.js"></script>
+    <!-- ================= DIRECTIONS ================= -->
+
+    <section class="section directions-section" id="directions">
+
+      <div class="section-top reveal">
+
+        <div class="section-number">02 / DIRECTIONS</div>
+
+        <p>
+          Five directions.
+          <br>
+          One ecosystem.
+        </p>
+
+      </div>
+
+      <div class="direction-list">
+
+        <article class="direction-card reveal">
+
+          <div class="direction-number">01</div>
+
+          <div class="direction-main">
+
+            <h3>TAMIN DIGITAL</h3>
+
+            <p>
+              Websites, digital products, automation and technology
+              solutions for modern businesses.
+            </p>
+
+          </div>
+
+          <div class="direction-arrow">↗</div>
+
+        </article>
+
+
+        <article class="direction-card reveal">
+
+          <div class="direction-number">02</div>
+
+          <div class="direction-main">
+
+            <h3>TAMIN AI</h3>
+
+            <p>
+              Artificial intelligence, intelligent automation and
+              experimental AI products.
+            </p>
+
+          </div>
+
+          <div class="direction-arrow">↗</div>
+
+        </article>
+
+
+        <article class="direction-card reveal">
+
+          <div class="direction-number">03</div>
+
+          <div class="direction-main">
+
+            <h3>TAMIN MEDIA</h3>
+
+            <p>
+              Brand identity, marketing, creative communication and
+              digital storytelling.
+            </p>
+
+          </div>
+
+          <div class="direction-arrow">↗</div>
+
+        </article>
+
+
+        <article class="direction-card reveal">
+
+          <div class="direction-number">04</div>
+
+          <div class="direction-main">
+
+            <h3>TAMIN VENTURES</h3>
+
+            <p>
+              Startups, products and entrepreneurial experiments
+              created from real-world problems.
+            </p>
+
+          </div>
+
+          <div class="direction-arrow">↗</div>
+
+        </article>
+
+
+        <article class="direction-card reveal">
+
+          <div class="direction-number">05</div>
+
+          <div class="direction-main">
+
+            <h3>TAMIN INNOVATION</h3>
+
+            <p>
+              Research, emerging technologies and ideas designed
+              for what comes next.
+            </p>
+
+          </div>
+
+          <div class="direction-arrow">↗</div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= PROJECTS ================= -->
+
+    <section class="section projects-section" id="projects">
+
+      <div class="section-heading projects-heading reveal">
+
+        <div class="section-number">03 / PROJECTS</div>
+
+        <h2>
+          BUILT,
+          <br>
+          <em>NOT JUST PLANNED.</em>
+        </h2>
+
+      </div>
+
+
+      <div class="projects-grid">
+
+        <article class="project project-large reveal">
+
+          <div class="project-image project-image-one">
+
+            <div class="project-overlay">
+
+              <span>EDUCATION / TECHNOLOGY</span>
+
+              <div class="project-symbol">01</div>
+
+            </div>
+
+          </div>
+
+          <div class="project-info">
+
+            <div>
+              <span class="project-category">01 — EDTECH</span>
+              <h3>LearnMathKids</h3>
+            </div>
+
+            <p>
+              A playful digital learning experience designed
+              to make mathematics more engaging for children.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article class="project project-small reveal">
+
+          <div class="project-image project-image-two">
+
+            <div class="project-overlay">
+
+              <span>BUSINESS / DIGITAL</span>
+
+              <div class="project-symbol">02</div>
+
+            </div>
+
+          </div>
+
+          <div class="project-info">
+
+            <div>
+              <span class="project-category">02 — DIGITAL</span>
+              <h3>Business Systems</h3>
+            </div>
+
+            <p>
+              Digital experiences and automation
+              for growing businesses.
+            </p>
+
+          </div>
+
+        </article>
+
+
+        <article class="project project-small reveal">
+
+          <div class="project-image project-image-three">
+
+            <div class="project-overlay">
+
+              <span>EXPERIMENT / FUTURE</span>
+
+              <div class="project-symbol">03</div>
+
+            </div>
+
+          </div>
+
+          <div class="project-info">
+
+            <div>
+              <span class="project-category">03 — LAB</span>
+              <h3>Future Lab</h3>
+            </div>
+
+            <p>
+              Experimental concepts exploring technology,
+              AI and new digital possibilities.
+            </p>
+
+          </div>
+
+        </article>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= INNOVATION ================= -->
+
+    <section class="innovation-section" id="innovation">
+
+      <div class="innovation-noise"></div>
+
+      <div class="innovation-content">
+
+        <div class="section-number reveal">
+          04 / INNOVATION
+        </div>
+
+        <div class="innovation-title reveal">
+
+          <span>DON'T JUST</span>
+
+          <strong>
+            FOLLOW
+            <br>
+            THE FUTURE.
+          </strong>
+
+          <span>EXPLORE IT.</span>
+
+        </div>
+
+        <div class="innovation-bottom reveal">
+
+          <p>
+            We believe innovation starts before the market asks for it.
+            Question the obvious. Explore the unknown. Build the useful.
+          </p>
+
+          <div class="innovation-index">
+            <span>LAB / 001</span>
+            <span>OPEN</span>
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= ABOUT ================= -->
+
+    <section class="section about-section" id="about">
+
+      <div class="section-number reveal">
+        05 / ABOUT
+      </div>
+
+      <div class="about-grid">
+
+        <h2 class="reveal">
+          BUILD USEFUL.
+          <br>
+          THINK <em>BIGGER.</em>
+        </h2>
+
+        <div class="about-content reveal">
+
+          <p class="about-lead">
+            TAMIN GROUP is being built around one simple principle:
+            ideas matter when they become reality.
+          </p>
+
+          <p>
+            We believe young companies should move fast,
+            learn continuously and think beyond the obvious.
+          </p>
+
+          <div class="values">
+
+            <div>
+              <span>01</span>
+              <strong>CURIOUS</strong>
+            </div>
+
+            <div>
+              <span>02</span>
+              <strong>BUILDERS</strong>
+            </div>
+
+            <div>
+              <span>03</span>
+              <strong>LONG-TERM</strong>
+            </div>
+
+            <div>
+              <span>04</span>
+              <strong>ADAPTIVE</strong>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+
+    <!-- ================= CONTACT ================= -->
+
+    <section class="contact-section" id="contact">
+
+      <div class="contact-inner">
+
+        <div class="section-number reveal">
+          CONTACT / 06
+        </div>
+
+        <h2 class="reveal">
+          LET'S BUILD
+          <br>
+          <em>SOMETHING MEANINGFUL.</em>
+        </h2>
+
+        <a
+          href="mailto:hello@tamingroup.com"
+          class="contact-email reveal"
+        >
+          hello@tamingroup.com
+          <span>↗</span>
+        </a>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- ================= FOOTER ================= -->
+
+  <footer class="footer">
+
+    <div class="footer-top">
+
+      <div class="footer-brand">
+
+        <div class="brand-mark">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+
+        <div>
+          <strong>TAMIN</strong>
+          <small>GROUP</small>
+        </div>
+
+      </div>
+
+      <p>
+        TECHNOLOGY.
+        <br>
+        BUSINESS.
+        <br>
+        INNOVATION.
+      </p>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <span>© <span id="year"></span> TAMIN GROUP</span>
+
+      <span>KYRGYZSTAN / GLOBAL</span>
+
+      <a href="#home">BACK TO TOP ↑</a>
+
+    </div>
+
+  </footer>
+
+
+  <script src="script.js"></script>
 
 </body>
 </html>
-```
